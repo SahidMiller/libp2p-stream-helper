@@ -1,4 +1,4 @@
-const lp = require('it-length-prefixed').default
+const lp = require('it-length-prefixed')
 const { toBuffer } = require('it-buffer')
 const pipe = require('it-pipe')
 const pushable = require('it-pushable')
